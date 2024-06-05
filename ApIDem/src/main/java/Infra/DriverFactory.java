@@ -8,7 +8,7 @@ import io.appium.java_client.service.local.flags.GeneralServerFlag;
 public class DriverFactory {
     public static final int PORT = 4723;
     public static final String HOST = "127.0.0.1";
-    public static String Url = "http://"+HOST+":"+PORT+"/wd/hub";
+    public static String Url = "http://"+HOST+":"+PORT+"/wd/hub";  //remove /wd/hub if server doesn't start
     protected static AppiumDriver driver=null;
     private static AppiumDriverLocalService services;
 
